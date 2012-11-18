@@ -1,0 +1,204 @@
+/*
+	Color Combination: http://goo.gl/HkMbc
+
+*/
+/* Fonts
+------------------------------------*/
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+
+/* =BOOTSTRAP
+------------------------------------*/
+.navbar .brand {
+	font-family: 'Droid Arabic Kufi', serif;
+}
+.navbar.nav-sub > .navbar-inner .nav > li > a{
+	line-height: 250%;
+	//font-size: 105%;
+}
+
+.navbar.nav-sub > .navbar-inner .nav > li > a{
+	line-height: 250%;
+	//font-size: 105%;
+}
+
+.navbar.navbar-blue{
+	background: #07c;
+}
+.navbar.navbar-blue .brand{
+	font-family: 'Droid Arabic Kufi', serif;
+	color: white;
+	text-shadow: 0 1px 0 #000;
+	background: #07c;
+}
+.navbar.navbar-blue > .navbar-inner{
+	background: #07c;
+	filter:none; /* IE Fix background color */
+	color: white;
+}
+.navbar.navbar-blue > .navbar-inner .nav > li > a {
+	color: white;
+	text-shadow: 0 1px 0 #000;
+}
+.navbar.navbar-blue .nav > .active > a, .navbar.navbar-blue .nav > .active > a:hover, .navbar.navbar-blue .nav > .active > a:focus{
+	background: #06b;
+	color: white;
+}
+
+.navbar.navbar-aqua{
+	background: #058;
+}
+.navbar.navbar-aqua .brand{
+	font-family: 'Droid Arabic Kufi', serif;
+	background: #058;
+	color: #e8e8e8;
+	text-shadow: 0 1px 0 #000;
+}
+.navbar.navbar-aqua > .navbar-inner{
+	background: #058;
+	filter:none; /* IE Fix background color */
+	color: #f5f5f5;
+}
+.navbar.navbar-aqua > .navbar-inner .nav > li > a {
+	color: #f5f5f5;
+	text-shadow: 0 1px 0 #000;
+}
+.navbar.navbar-aqua .nav > .active > a, .navbar.navbar-aqua .nav > .active > a:hover, .navbar.navbar-aqua .nav > .active > a:focus{
+	background: #047;
+	color: #f5f5f5;
+}
+
+.navbar.navbar-black{
+	background: #333;
+}
+.navbar.navbar-black .brand{
+	font-family: 'Droid Arabic Kufi', serif;
+	background: #333;
+	color: #f5f5f5;
+	text-shadow: 0 1px 0 #000;
+}
+.navbar.navbar-black > .navbar-inner{
+	background: #333;
+	filter:none; /* IE Fix background color */
+	color: #f5f5f5;
+}
+.navbar.navbar-black > .navbar-inner .nav > li > a {
+	color: #f5f5f5;
+	text-shadow: 0 1px 0 #000;
+}
+.navbar.navbar-black .nav > .active > a, .navbar.navbar-aqua .nav > .active > a:hover, .navbar.navbar-aqua .nav > .active > a:focus{
+	background: #444;
+	color: white;
+}
+
+
+
+/* =GLOBAL
+------------------------------------*/
+:lang(en){
+	direction: ltr;
+	font-family: Helvetica, Helvetica Neue, Verdana, sans-serif;
+}
+h1:lang(en),h2:lang(en),h3:lang(en),h4:lang(en),h5:lang(en),h6:lang(en){
+	font-weight: bold;
+}
+
+/* =TAGS
+------------------------------------*/
+body {
+	font-family: 'Tahoma', sans-serif;
+	font-size: 12px;
+  	color: #555;
+  	background: #fff;
+}
+a{
+	-webkit-transition: color .5s;
+}
+a:hover {
+	text-decoration: none;
+}
+input,textarea{
+	font-family: 'Tahoma', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,
+.btn{
+	font-family: 'Droid Arabic Kufi', serif;
+	font-weight: normal;
+}
+time {
+	font-weight: normal;
+}
+body > footer {
+	width: 100%;
+	background-color: #f9f9f9; 
+	border-top: 1px dashed #e5e5e5;
+	padding: 10px 0 5px 0;
+}
+dd {
+	margin-right: 0;
+	padding-right: 10px;
+}
+/* =CLASSES
+------------------------------------*/
+ul.small > li > * {
+	font-size: smaller;
+}
+.admin-message {
+	border-top: 1px dashed #e5e5e5;
+	border-bottom: 1px dashed #e5e5e5;
+}
+.admin-message > dt,
+.admin-message > dd{
+	background: #f9f9f9;
+}
+
+/* =IDS
+------------------------------------*/
+#messages{
+	height: 390px;
+	max-height: 390px;
+	overflow: auto;
+}
+/* =MISCS
+------------------------------------*/
+.align-center {
+	text-align: center;
+}
+.align-left {
+	text-align: left;
+}
+.align-right {
+	text-align: right;
+}
+.large {
+	font-size: 133%;
+}
+.large-x {
+	font-size: 166%;
+}
+.large-xx {
+	font-size: 199%;
+}
+.sub{
+	vertical-align: sub;
+}
+.color-blue {
+	color: #07c;
+}
+
+
+
+/* separate the list from what follows it */
+.list-wrapper
+{
+  margin-bottom: 1em;
+}
+.list-wrapper > ol
+{
+  width: 100%;  /* room for 3 columns */
+}
+.list-wrapper > ol > li
+{
+  float: right;
+  width: 25em;  /* accommodate the widest item */
+}
